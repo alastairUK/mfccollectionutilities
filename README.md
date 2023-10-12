@@ -1,3 +1,5 @@
+[![MSBuild](https://github.com/alastairUK/mfccollectionutilities/actions/workflows/msbuild.yml/badge.svg)](https://github.com/alastairUK/mfccollectionutilities/actions/workflows/msbuild.yml)
+
 # MFC Collection Utilities
 This is a small library that enables developers to use MFC containers (arrays, lists, maps) with range-based for loops. The library consists of a single header that you include in your MFC projects.
 
