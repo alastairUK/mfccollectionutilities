@@ -51,5 +51,5 @@ jobs:
 
     - name: Run VSTest
       id: run_vstest
-      working-directory: $\test\IteratorTests\x64\Release
+      working-directory: .\test\IteratorTests\x64\Release
       run: vstest.console.exe /Platform:x64 .\IteratorTests.dll
