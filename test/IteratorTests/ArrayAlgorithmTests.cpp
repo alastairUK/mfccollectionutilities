@@ -199,7 +199,7 @@ namespace IteratorTests
             std::iota(begin(arr), end(arr), 1);
             for (INT_PTR i = 0; i < arr.GetSize(); ++i)
             {
-               Assert::AreEqual(i + 1, arr[i]);
+               Assert::AreEqual(static_cast<int>(i + 1), arr[i]);
             }
          }
 
